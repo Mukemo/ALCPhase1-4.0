@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.alc4phase1.ActivityA">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text_tv"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnAlc"
+            android:padding="10dp"
+            android:background="@drawable/round_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:text="@string/about_button_text"
+            android:layout_marginBottom="40dp"/>
+        <Button
+            android:id="@+id/btnProfile"
+            android:padding="10dp"
+            android:textColor="@color/color_white"
+            android:background="@drawable/round_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_button_text"/>
+    </LinearLayout>
+
+</RelativeLayout>

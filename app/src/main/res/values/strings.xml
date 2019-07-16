@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ALC4Phase1</string>
+    <string name="about_button_text">ABOUT ALC</string>
+    <string name="welcome_text_tv">Welcome to ALC 4.0</string>
+    <string name="profile_button_text">my profile</string>
+    <string name="full_name">Germain Musul Mukeng</string>
+</resources>
